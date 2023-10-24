@@ -57,7 +57,7 @@ public class Drivetrain extends SubsystemBase {
   private Pose2d pose = new Pose2d();
 
    // Odometry class for tracking robot pose
-   SwerveDriveOdometry odometry;
+   private SwerveDriveOdometry odometry;
 
    //private ChassisSpeeds m_chassisSpeeds = new ChassisSpeeds(0.0, 0.0, 0.0);
    private SwerveModuleState[] states = Constants.kinematics.toSwerveModuleStates(new ChassisSpeeds(0, 0, 0));
